@@ -1,6 +1,7 @@
 from src.abstract_class import JobBoard
 import requests
 
+
 class HH(JobBoard):
     """Класс для подключения к API и получения вакансий HeadHunter.ru"""
     url = "https://api.hh.ru/vacancies"
